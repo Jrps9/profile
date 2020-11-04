@@ -77,6 +77,12 @@ a:hover {
   border: 1px lightgrey;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 5px;
+  transition: ease, 1s;
+}
+
+.card-white:hover {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  transition: ease, 1s;
 }
 
 .btn-lien {
@@ -91,9 +97,8 @@ a:hover {
 .btn-lien:hover {
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid black;
   opacity: 1;
-  transform:; scale (2);
+  transform: scale(1.4);
   transition: ease, 1s;
   background-color:#3D2B27;
 }
