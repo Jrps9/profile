@@ -65,8 +65,16 @@ a:hover {
 }
 
 .img-circle {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 10%;
+  transition: ease, 0.5s
 }
+
+.img-circle:hover {
+  transform: scale(1.1);
+  transition: ease, 0.5s
+}
+
 .text-center {
   text-align: center;
 }
@@ -77,28 +85,29 @@ a:hover {
   border: 1px lightgrey;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 5px;
-  transition: ease, 1s;
+  transition: ease, 0.5s;
 }
 
 .card-white:hover {
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
   transition: ease, 1s;
 }
 
 .btn-lien {
-  padding: 10px;
+  padding: 7px;
   border-radius: 8px;
-  border: 1px solid black;
   opacity: 0.8;
   background-color:#3D2B27;
+  transition: ease, 1s;
   color: white;
 }
 
 .btn-lien:hover {
-  padding: 10px;
+  padding: 8px;
   border-radius: 8px;
   opacity: 1;
   transform: scale(1.4);
   transition: ease, 1s;
   background-color:#3D2B27;
+  transform: translateY(200%);
 }
