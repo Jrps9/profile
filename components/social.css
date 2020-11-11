@@ -1,0 +1,35 @@
+.list-inline .fb {
+  font-size: 35px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #9d9d9d;
+  animation : 5s allumage 30s linear;
+  animation-fill-mode: forwards;
+}
+
+.list-inline .tw {
+  font-size: 35px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #9d9d9d;
+  animation : 6s allumage 30s linear;
+  animation-fill-mode: forwards;
+}
+
+.list-inline .lkd {
+  font-size: 35px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #9d9d9d;
+  animation : 7s allumage 30s linear;
+  animation-fill-mode: forwards;
+}
+
+.list-inline .git {
+  font-size: 35px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #9d9d9d;
+  animation : 7s allumage 30s linear;
+  animation-fill-mode: forwards;
+}

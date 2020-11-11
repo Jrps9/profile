@@ -1,0 +1,8 @@
+.card-white1 img {
+  z-index: -1;
+  animation : 1s allumageimg 35s linear;
+  animation-fill-mode: forwards;
+  opacity: 0.1;
+}
+
+/*  filter: drop-shadow( 0px 0px 10px rgba(254, 213, 6, 0.5));;

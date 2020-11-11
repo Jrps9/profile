@@ -1,0 +1,217 @@
+.loading {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family:'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 45px;
+  animation: 6s chargement 0s linear;
+  animation-fill-mode: forwards;
+  border-radius: 15px;
+}
+
+.loading2 {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family:'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 45px;
+  animation: 2s chargementc 6s linear;
+  animation-fill-mode: forwards;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+.loading3 {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family:'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+  animation: 2s chargementc 24s linear;
+  animation-fill-mode: forwards;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+.loading4 {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family:'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+  animation: 2s chargementc 26s linear;
+  animation-fill-mode: forwards;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+/*
+.batterie {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 4px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 130px;
+  height: 40px;
+}
+
+.charge1 {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 4px solid white;
+  background-color: white;
+  height: 40px;
+  width: 28px;
+  opacity: 0;
+  animation: 9s chargementb 1s linear;
+  animation-fill-mode: forwards;
+}
+
+.charge2 {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 4px solid white;
+  background-color: white;
+  height: 40px;
+  width: 28px;
+  opacity: 0;
+  animation: 9s chargementb 2s linear;
+  animation-fill-mode: forwards;
+}
+
+.charge3 {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 4px solid white;
+  background-color: white;
+  height: 40px;
+  width: 28px;
+  opacity: 0;
+  animation: 9s chargementb 3s linear;
+  animation-fill-mode: forwards;
+}
+
+.boutbat {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 4px solid white;
+  background-color: white;
+  height: 35px;
+  width: 5px;
+}
+*/
+.card-white1 {
+  position: relative;
+  margin: 0px 20px 20px 20px;
+  background: black;
+  padding: 20px;
+  border: 1px black;
+  border-radius: 15px;
+  animation : 7s allumageb 30s linear;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card-white1::before {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: 1s ouverturea 9s linear;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+.card-white1::after {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  animation: 1s ouvertureb 9s linear;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+.card-white2 {
+  position: relative;
+  margin: 10px 20px 0px 20px;
+  background: #000000;
+  padding: 20px;
+  border: 1px lightgrey;
+  border-radius: 15px;
+  animation : 7s allumageb 30s linear;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.card-white2::before {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  animation: 1s ouverturec 29s linear;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}

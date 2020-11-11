@@ -1,0 +1,353 @@
+@keyframes neon {
+  0%
+  {
+  filter: drop-shadow( 0px 0px 10px rgba(254, 213, 6, 0.9));
+  }
+  50%
+  {
+  filter: drop-shadow( 0px 0px 10px rgba(254, 213, 6, 0.9));
+  }
+  100%
+  {
+  filter: drop-shadow( 0px 0px 10px rgba(254, 213, 6, 0.9));
+  }
+}
+
+@keyframes allumage {
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+  {
+  color: #9d9d9d;
+  text-shadow: none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+  {
+  color: yellow;
+  text-shadow: 0px 0px 10px yellow,
+  0px 0px 20px yellow,
+  0px 0px 40px yellow,
+  0px 0px 80px yellow,
+  0px 0px 160px yellow;
+  }
+}
+
+@keyframes allumageb {
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+  {
+  box-shadow: none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+  {
+  box-shadow: 0px 0px 10px rgba(254, 213, 6, 0.5);
+  }
+}
+
+@keyframes allumageimg {
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+  {
+  opacity: 0.1;
+  filter: drop-shadow( 0px 0px 10px rgba(254, 213, 6, 0));
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+  {
+  opacity: 1;
+  filter: drop-shadow( 0px 0px 10px rgba(254, 213, 6, 0.9));
+  }
+}
+
+@keyframes ouverturea {
+  0% {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border-bottom: 1px solid yellow;
+}
+  50%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 25%;
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border-bottom: 1px solid yellow;
+  }
+  99%
+  {
+  border-bottom: 1px solid yellow;
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  }
+  100%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  }
+}
+
+@keyframes ouvertureb {
+  0% {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-top: 1px solid yellow;
+}
+  50%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 25%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-top: 1px solid yellow;
+  }
+  99%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-top: 1px solid yellow;
+  }
+  100%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  }
+}
+
+@keyframes ouverturec {
+  0% {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-top: 1px solid yellow;
+}
+  50%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-top: 1px solid yellow;
+  }
+  99%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  border-top: 1px solid yellow;
+  }
+  100%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  }
+}
+
+@keyframes chargement {
+  0%
+  {
+  opacity: 1;
+  }
+  20%
+  {
+  opacity: 0;
+  }
+  40%
+  {
+  opacity: 1;
+  }
+  60%
+  {
+  opacity: 0;
+  }
+  80%
+  {
+  opacity: 1;
+  }
+  100%
+  {
+  opacity: 0;
+  }
+}
+
+@keyframes chargementb {
+ 0%
+  {
+  opacity: 1;
+  }
+  20%
+  {
+  opacity: 0;
+  }
+  40%
+  {
+  opacity: 1;
+  }
+  60%
+  {
+  opacity: 0;
+  }
+  80%
+  {
+  opacity: 1;
+  }
+  100%
+  {
+  opacity: 0;
+  }
+}
+
+@keyframes chargementc {
+  0%
+  {
+  opacity: 0;
+  }
+  50%
+  {
+  opacity: 1;
+  }
+  100%
+  {
+  opacity: 0;
+  }
+}
+
+@keyframes ouverturec {
+  0% {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+  50%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  }
+  100%
+  {
+  content:" ";
+  background: black;
+  width: 100%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  }
+}
+
+@keyframes poltergeist {
+ 0%
+  {
+  opacity: 1;
+  }
+  10%
+  {
+    transform:skew(20deg);
+  }
+  20%
+  {
+  transform:skew(-20deg);
+  opacity: 0.5;
+  }
+  40%
+  {
+  opacity: 1;
+  }
+  60%
+  {
+  opacity: 0;
+  }
+  80%
+  {
+  opacity: 1;
+  }
+  100%
+  {
+  opacity: 0;
+  }
+}
+
+@keyframes ecriture {
+  0%
+  {
+  opacity: 0;
+  }
+  50%
+  {
+  opacity: 0.5;
+  }
+  100%
+  {
+  opacity: 1;
+  }
+}
