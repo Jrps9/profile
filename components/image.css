@@ -1,6 +1,6 @@
 .card-white1 img {
   z-index: -1;
-  animation : 1s allumageimg 35s linear;
+  animation : 1s allumageimg 40s linear;
   animation-fill-mode: forwards;
   opacity: 0.1;
 }
